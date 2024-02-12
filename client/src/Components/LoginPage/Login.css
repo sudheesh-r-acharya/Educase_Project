@@ -1,0 +1,102 @@
+
+.Loginbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* background-color: #1D2226; */
+    transform: translate(-50%,-50%);
+    width: 375px;
+    height: 812px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;  
+  }
+  .Loginbox h1,p,button,#Loginemail,#Loginpassword{
+    position: relative;
+  }
+
+  .Loginbox h1{
+    top: 40px;
+    left: 20px;
+    width: 230px;
+    /* background-color: aqua; */
+    height: 69px;
+    text-align: left;
+    font: normal normal medium 28px/36px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 1;
+  }
+  .Loginbox p{
+    top: 60px;
+    left: 20px;
+    width: 232px;
+    height: 48px;
+    text-align: left;
+    font: normal normal normal 18px/26px Rubik;
+    letter-spacing: 0px;
+    color: #1D2226;
+    opacity: 0.6;
+  }
+  #Loginemail{
+    /* position: absolute; */
+    top: 90px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    background: transparent;
+    padding: 0 15px;
+  }
+  #Loginphemail{
+    top: 199px;
+    left: 34px;
+    width: 85px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    z-index: 111;
+    
+
+  }
+  #Loginpassword{
+    top: 120px;
+    left: 20px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #CBCBCB;
+    border-radius: 6px;
+    opacity: 1;
+    background: transparent;
+    padding: 0 15px;
+  }
+  #Loginphpassword{
+    top: 269px;
+    left: 34px;
+    width: 65px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 13px/17px Rubik;
+    letter-spacing: 0px;
+    color: #6C25FF;
+    opacity: 1;
+    z-index: 111;
+  }
+  .Loginbtn{
+    top: 141px;
+    left: 20px;
+    width: 335px;
+    height: 46px;
+    background: #CBCBCB 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    color: white;
+    border: none;
+    text-align: center;
+    font: normal normal medium 16px/17px Rubik;
+    letter-spacing: 0px;
+  }
