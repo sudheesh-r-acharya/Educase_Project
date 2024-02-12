@@ -36,7 +36,7 @@ const Create = () => {
 
   const Sumbithandler = async(e) =>{
     e.preventDefault()
-    axios.post( 'http://localhost:3001/create', formdata)
+    axios.post( 'https://educase-backend.onrender.com/create', formdata)
     .then(result => {
         // console.log(result);
         if(result.data === "Already registered"){

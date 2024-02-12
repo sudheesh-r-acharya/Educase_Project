@@ -21,7 +21,7 @@ const Login = () => {
 
   const Sumbithandler = async(e) =>{
     e.preventDefault()
-    await axios.post('http://127.0.0.1:3001/login',formdata)
+    await axios.post('https://educase-backend.onrender.com/login',formdata)
     .then(result => {
       // console.log(result);
       if(result.data === "Success"){
