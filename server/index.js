@@ -2,13 +2,14 @@ const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const FormDataModel = require ('./models/FormData');
+const dotenv = require('dotenv');
 
-
+dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://educase-user:ocjmslqJfLfGhwuP@educase-cluster.mbupwfh.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect(process.env.DB_URL);
 
 app.post('/create', (req, res)=>{
     // To post / insert data into database
@@ -49,7 +50,7 @@ app.post('/login', (req, res)=>{
     })
 })
 
-app.listen(3001, () => {
-    console.log("Server listining on http://127.0.0.1:3001");
+app.listen(process.env.SERVER_PORT, () => {
+    console.log(`Server listining on ${process.env.SERVER_PORT}`);
 
 });
