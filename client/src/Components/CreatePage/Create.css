@@ -16,7 +16,7 @@
   .Createbox h1{
     top: 40px;
     left: 20px;
-    width: 228px;
+    width: 268px;
     height: 69px;
     text-align: left;
     font: normal normal medium 28px/36px Rubik;
@@ -92,10 +92,12 @@
     opacity: 1;
     color: #6C25FF;
     z-index: 111;
+    /* background-color: #6C25FF; */
   }
 
   #phname{
-    top: 136px;  
+    top: 136px; 
+    width: 80px; 
   }
   #phphonenumber{
     width: 100px;

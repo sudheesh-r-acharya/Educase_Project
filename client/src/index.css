@@ -43,13 +43,14 @@ html,body{
 .Mainbox p{
   top: 552px;
   left: 20px;
-  width: 232px;
+  width: 300px;
   height: 48px;
   text-align: left;
   font: normal normal normal 18px/26px Rubik;
   letter-spacing: 0px;
   color: #1D2226;
   opacity: 0.6;
+  /* background-color: #6C25FF; */
 }
 
 

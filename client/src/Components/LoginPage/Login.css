@@ -17,7 +17,7 @@
   .Loginbox h1{
     top: 40px;
     left: 20px;
-    width: 230px;
+    width: 290px;
     /* background-color: aqua; */
     height: 69px;
     text-align: left;
@@ -29,13 +29,14 @@
   .Loginbox p{
     top: 60px;
     left: 20px;
-    width: 232px;
+    width: 300px;
     height: 48px;
     text-align: left;
     font: normal normal normal 18px/26px Rubik;
     letter-spacing: 0px;
     color: #1D2226;
     opacity: 0.6;
+    /* background-color: #6C25FF; */
   }
   #Loginemail{
     /* position: absolute; */
@@ -52,7 +53,7 @@
   #Loginphemail{
     top: 199px;
     left: 34px;
-    width: 85px;
+    width: 97px;
     height: 15px;
     text-align: left;
     font: normal normal normal 13px/17px Rubik;
@@ -99,4 +100,7 @@
     text-align: center;
     font: normal normal medium 16px/17px Rubik;
     letter-spacing: 0px;
+  }
+  .Loginbtn:hover{
+    background-color: #6C25FF;
   }

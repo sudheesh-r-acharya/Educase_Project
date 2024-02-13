@@ -26,7 +26,7 @@ const Login = () => {
       // console.log(result);
       if(result.data === "Success"){
           // console.log("Login Success");
-          // alert('Login successful!')
+          alert('Login successful!')
           navigate('/home');
       }
       else{
